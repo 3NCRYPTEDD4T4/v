@@ -14,8 +14,8 @@ local g = {
     changed = {},
     folders = {
         main = "vision",
-        configs = "vision/configs"
-        assets = "vision/assets",
+        configs = "vision/configs",
+        assets = "vision/assets"
     },
     shared = {
         initialized = false,
