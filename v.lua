@@ -14,7 +14,6 @@ local g = {
     changed = {},
     folders = {
         main = "vision",
-        assets = "vision/assets",
         configs = "vision/configs"
     },
     shared = {
@@ -25,9 +24,6 @@ local g = {
 }
 if not isfolder(g.folders.main) then
     makefolder(g.folders.main)
-end
-if not isfolder(g.folders.assets) then
-    makefolder(g.folders.assets)
 end
 if not isfolder(g.folders.configs) then
     makefolder(g.folders.configs)
